@@ -25,8 +25,8 @@ Desafio de Arquitetura de software sobre sistema para ajudar com a alfabetizaç�
 
 ###### Linguagens e bibliotecas / frameworks:
 - Front-end: HTML 5 e CSS3 (com Bootstrap), e JavaScript;
-- Back-end: Python 3.12.3 (com flask, openai e dotenv);
-- IA: API da OPENAI (chat gpt);
+- Back-end: Python 3.12.3 (com flask, google-generativeai e dotenv);
+- IA: API da google (gemini-2.5-flash);
 - Banco de dados: SQL (SQLite).
 
 ##### Slide utilizado pela equipe :
@@ -41,7 +41,7 @@ Desafio de Arquitetura de software sobre sistema para ajudar com a alfabetizaç�
     Python 3.12.3
 
 ### Bibliotecas e Frameworks utilizados
-    flask flask-sqlalchemy dotevn openai
+    flask flask-sqlalchemy dotevn google-generativeai 
 
 ### Processo de instalação:
 1. Criar ambiente virtual Python (venv)
@@ -98,8 +98,8 @@ Linux / macOS
 
 ### Para iniciar o sistema
 
-    Dependendo do desafio, há na pasta ou um arquivo "main.py" ou um "run.py" , esses arquivos são os responsaveis por inicializar o sistema, basta dar play neles e o sistema começa a funcionar, logo em seguida basta clicar no link que aparecer no terminal e será direcionado para o site.
+    Dependendo do desafio, há na pasta um arquivo "run.py" , esse arquivo sé responsavel por inicializar o sistema, basta dar play nele e o sistema começa a funcionar, logo em seguida basta clicar no link que aparecer no terminal e será direcionado para o site.
 
 ### Observação
-    Dentro da pasta de prototipo terá uma subpasta ai nela crie um arquivo .env e coloque sua chave de API da OpenAI
-    coloque desta maneira no arquivo .env : OPENAI_API_KEY = "sua chave de API aqui"
+    Dentro da pasta de prototipo terá uma subpasta ai nela crie um arquivo .env e coloque sua chave de API da Google AI Studio
+    coloque desta maneira no arquivo .env : GEMINI_API_KEY = "sua chave de API aqui"
