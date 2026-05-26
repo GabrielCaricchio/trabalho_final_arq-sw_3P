@@ -1,9 +1,8 @@
-
-<div align="center">
+<div>
   <h1>Trabalho de Arquitetura de Software</h1>
   <h4>Professor: Cloves Rocha</h4>
 
-  <table>
+   <table>
     <tr>
       <td align="center">
         <a href="https://github.com/profclovesrocha">
@@ -14,66 +13,69 @@
     </tr>
   </table>
 
+  <br><br>
+
   <h4>Turma: SI 3°P manhã</h4>
   <h4>Sistema: AlfabetizAI (site para alfabetização com AI)</h4>
   <h4>Equipe:</h4>
-
-  <table style="white-space: nowrap; display: inline-block; max-width: 100%; overflow-x: auto;">
+<center>
+  <table width="100%" align="center">
     <tr>
-      <td align="center" valign="top" style="min-width: 140px; max-width: 140px; padding: 10px;">
+      <td align="center" valign="top" colspan="3" width="25%">
         <a href="https://github.com/Daniel-Willian-Silva">
-          <img src="https://avatars.githubusercontent.com/u/229531037?v=4" width="100px;" alt="Daniel Willian da Silva"/><br />
-          <sub><b>Daniel Willian da Silva</b></sub><br />
+          <img src="https://avatars.githubusercontent.com/u/229531037?v=4" width="100px;" alt="Daniel Willian da Silva" style="border-radius: 10px;"/><br />
+          <sub><b>Daniel Willian<br>da Silva</b></sub><br />
           <sub>Matrícula: 01831927</sub>
         </a>
       </td>
-      <td align="center" valign="top" style="min-width: 140px; max-width: 140px; padding: 10px;">
+      <td align="center" valign="top" colspan="3" width="25%">
         <a href="https://github.com/GabrielCaricchio">
-          <img src="https://avatars.githubusercontent.com/u/235008081?v=4" width="100px;" alt="Gabriel Arruda Caricchio"/><br />
-          <sub><b>Gabriel Arruda Caricchio</b></sub><br />
+          <img src="https://avatars.githubusercontent.com/u/235008081?v=4" width="100px;" alt="Gabriel Arruda Caricchio" style="border-radius: 10px;"/><br />
+          <sub><b>Gabriel Arruda<br>Caricchio</b></sub><br />
           <sub>Matrícula: 01824947</sub>
         </a>
       </td>
-      <td align="center" valign="top" style="min-width: 140px; max-width: 140px; padding: 10px;">
+      <td align="center" valign="top" colspan="3" width="25%">
         <a href="https://github.com/Ingrid-Motta06">
-          <img src="https://avatars.githubusercontent.com/u/229673223?v=4" width="100px;" alt="Ingrid Motta Santos"/><br />
-          <sub><b>Ingrid Motta Santos</b></sub><br />
+          <img src="https://avatars.githubusercontent.com/u/229673223?v=4" width="100px;" alt="Ingrid Motta Santos" style="border-radius: 10px;"/><br />
+          <sub><b>Ingrid Motta<br>Santos</b></sub><br />
           <sub>Matrícula: 01834701</sub>
         </a>
       </td>
-      <td align="center" valign="top" style="min-width: 140px; max-width: 140px; padding: 10px;">
+      <td align="center" valign="top" colspan="3" width="25%">
         <a href="https://github.com/hannaparente767">
-          <img src="https://avatars.githubusercontent.com/u/228707733?v=4" width="100px;" alt="Peixoto Parente de Araujo"/><br />
-          <sub><b>Hanna Peixoto Parente de Araujo</b></sub><br />
+          <img src="https://avatars.githubusercontent.com/u/228707733?v=4" width="100px;" alt="Peixoto Parente de Araujo" style="border-radius: 10px;"/><br />
+          <sub><b>Hanna Peixoto<br>Parente de Araujo</b></sub><br />
           <sub>Matrícula: 01802318</sub>
         </a>
       </td>
-      <td align="center" valign="top" style="min-width: 140px; max-width: 140px; padding: 10px;">
+    </tr>
+    <tr>
+      <td align="center" valign="top" colspan="4" width="33.3%">
         <a href="https://github.com/Pedroxxxz">
-          <img src="https://avatars.githubusercontent.com/u/264173021?v=4" width="100px;" alt="Pedro Henrique José"/><br />
-          <sub><b>Pedro Henrique José</b></sub><br />
+          <img src="https://avatars.githubusercontent.com/u/264173021?v=4" width="100px;" alt="Pedro Henrique José" style="border-radius: 10px;"/><br />
+          <sub><b>Pedro Henrique<br>José</b></sub><br />
           <sub>Matrícula: 0180325</sub>
         </a>
       </td>
-     <td align="center" valign="top" style="min-width: 140px; max-width: 140px; padding: 10px;">
+      <td align="center" valign="top" colspan="4" width="33.3%">
         <a href="https://github.com/EmanuellyLima07">
-          <img src="https://avatars.githubusercontent.com/u/228707291?v=4" width="100px;" alt="Emanuelly Araujo Alves de Lima"/><br />
-          <sub><b>Emanuelly Araujo Alves de Lima</b></sub><br />
+          <img src="https://avatars.githubusercontent.com/u/228707291?v=4" width="100px;" alt="Emanuelly Araujo Alves de Lima" style="border-radius: 10px;"/><br />
+          <sub><b>Emanuelly Araujo<br>Alves de Lima</b></sub><br />
           <sub>Matrícula: 01794503</sub>
         </a>
       </td>
-    </tr>
-   <td align="center" valign="top" style="min-width: 140px; max-width: 140px; padding: 10px;">
+      <td align="center" valign="top" colspan="4" width="33.3%">
         <a href="https://github.com/TarsilioDev">
-          <img src="https://avatars.githubusercontent.com/u/247039797?v=4" width="100px;" alt="Tarsílio Aureliano Soares Silva"/><br />
-          <sub><b>Tarsílio Aureliano Soares Silva</b></sub><br />
+          <img src="https://avatars.githubusercontent.com/u/247039797?v=4" width="100px;" alt="Tarsílio Aureliano Soares Silva" style="border-radius: 10px;"/><br />
+          <sub><b>Tarsílio Aureliano<br>Soares Silva</b></sub><br />
           <sub>Matrícula: 01803880</sub>
         </a>
       </td>
     </tr>
   </table>
 </div>
-
+</center>
 ---
 
 ###### Ferramentas utilizadas:
