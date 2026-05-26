@@ -4,6 +4,7 @@ from domain.models.UsuarioModels import Usuario
 from adapters.repositories.InterfaceDB import db_repository
 from adapters.integrations.InterfaceAI import gerar_pergunta
 
+#Definição do Blueprint para as rotas principais
 routes_bp = Blueprint('routes', __name__)
 
 # PÁGINA INICIAL

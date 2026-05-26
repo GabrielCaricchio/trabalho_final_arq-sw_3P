@@ -8,6 +8,7 @@ adapters_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 dotenv_path = os.path.join(adapters_dir, '.env')
 load_dotenv(dotenv_path)
 
+#Vai solicitar a primeira IA que estiver disponivel (vai testar previamente se o token é valido e se consegue se comunicar com a IA, se não passa pro proximo modelo)
 def gerar_pergunta():
     # 1. Tenta usar o Gemini
     gemini_key = os.getenv("GEMINI_API_KEY")

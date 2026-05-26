@@ -6,7 +6,6 @@ class Aluno(db.Model):
 
     id              = db.Column(db.Integer, primary_key=True)
     usuario_id      = db.Column(db.Integer, db.ForeignKey('usuarios.id'), nullable=False, unique=True)
-    turma_id        = db.Column(db.Integer, db.ForeignKey('turmas.id'))
     turma           = db.Column(db.String(100), nullable=True)
     data_nascimento = db.Column(db.Date)
     nivel_leitura   = db.Column(db.String(50), default='Pré-Silábico')
@@ -17,9 +16,6 @@ class Aluno(db.Model):
 
     # Relacionamentos
     usuario    = db.relationship('Usuario',      back_populates='aluno')
-    turma_obj  = db.relationship('Turma',        back_populates='alunos')
-    progressos = db.relationship('Progresso',    back_populates='aluno')
-    avaliacoes = db.relationship('AvaliacaoIA',  back_populates='aluno')
 
     def __repr__(self):
         return f'<Aluno {self.usuario.nome if self.usuario else self.id}>'

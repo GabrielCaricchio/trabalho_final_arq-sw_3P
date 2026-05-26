@@ -86,7 +86,7 @@
 
 ###### Linguagens e bibliotecas / frameworks:
 - Front-end: HTML 5 e CSS3 (com Bootstrap), e JavaScript;
-- Back-end: Python 3.12.3 (com flask, google-generativeai e dotenv);
+- Back-end: Python 3.12.3 (com flask);
 - IA: API da google (gemini-2.5-flash);
 - Banco de dados: SQL (SQLite).
 
@@ -94,15 +94,14 @@
 - https://view.genially.com/69b4c55249561c5da797c05e/presentation-alfabetiza
 
 ##### Arquitetura utilizada no projeto:
-![Logo](./slides/diagrama.jpeg)
+Para uma análise detalhada dos módulos, componentes e portas de comunicação, consulte o guia de [Análise da Arquitetura](./slides/arquitetura.md).
+
+![Diagrama de Arquitetura Hexagonal](./slides/diagrama_arquitetura.svg)
 
 ---
 
 ### Requisitos:
     Python 3.12.3
-
-### Bibliotecas e Frameworks utilizados
-    flask flask-sqlalchemy dotevn google-generativeai 
 
 ### Processo de instalação:
 1. Criar ambiente virtual Python (venv)

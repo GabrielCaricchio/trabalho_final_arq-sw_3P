@@ -11,8 +11,6 @@ class Professor(db.Model):
 
     # Relacionamentos
     usuario  = db.relationship('Usuario',          back_populates='professor')
-    escolas  = db.relationship('ProfessorEscola',  back_populates='professor')
-    turmas   = db.relationship('Turma',            back_populates='professor')
 
     def __repr__(self):
         return f'<Professor {self.usuario.nome if self.usuario else self.id}>'
