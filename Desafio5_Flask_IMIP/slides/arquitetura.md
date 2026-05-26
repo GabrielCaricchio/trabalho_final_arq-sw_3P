@@ -100,6 +100,11 @@ flowchart TB
 * **`core/app.py`:** Inicializador do Flask. Configura o servidor, as pastas de templates e estáticos, inicializa a sessão com `LoginManager` e registra os blueprints de rotas e autenticação.
 * **`core/auth.py`:** Controla as operações de registro e sessão do usuário. É aqui que os dados recebidos da UI são validados e transformados em modelos do domínio. Utiliza as portas para persistência.
 * **`core/routes.py`:** Mapeia os endpoints expostos ao navegador (como `/`, `/quiz`, `/biblioteca` e `/evolucao`). A rota `/api/questao` delega ao adaptador de IA a tarefa de gerar perguntas de alfabetização.
+
+* **`front-end/`:** contem a interface do usuário:**
+  * `static`: Contem as pastas images, css e js.
+  * `templates`: Contem os arquivo html
+
 * **`models/`:** Contém as entidades ativas da aplicação:
   * `UsuarioModels.py`: Tabela base de usuários contendo dados pessoais (CPF, e-mail, senha criptografada).
   * `AlunoModels.py` e `ProfessorModels.py`: Entidades que estendem o usuário básico para representar o perfil de Alunos (com informações de escolaridade, nível de leitura e internação hospitalar) e de Professores (com especialidade e disciplina de atuação).

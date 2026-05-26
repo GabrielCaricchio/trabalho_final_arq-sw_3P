@@ -81,17 +81,15 @@
 - Extensões do Visual Studio Code:
  Color Highlight, DotENV, Error Lens, HTML CSS Support, Image preview, indent-rainbow, jinja, Live Share, Markdown Preview Enhanced, Material Icon, Python, Pylance, Python Debugger, Python Environments, Reload, TODO Highlight, Todo Tree, Project Manager, vscode-pdf, SQLite Viewer, Portuguese (Brasil) Language Pack for Visual Studio Code, Github Theme, Ayu, Git History;
 - Git e github desktop;
+- Monday (aplicativo estilo kambam para gestão de atividades e equipes)
 - Gerenciador de pacotes UV;
 - Discord (para video conferencias para colaboração).
 
 ###### Linguagens e bibliotecas / frameworks:
 - Front-end: HTML 5 e CSS3 (com Bootstrap), e JavaScript;
 - Back-end: Python 3.12.3 (com flask);
-- IA: API da google (gemini-2.5-flash);
+- IA: API da google (e modelo gemini-2.5-flash);
 - Banco de dados: SQL (SQLite).
-
-##### Slide utilizado pela equipe :
-- https://view.genially.com/69b4c55249561c5da797c05e/presentation-alfabetiza
 
 ##### Arquitetura utilizada no projeto:
 Para uma análise detalhada dos módulos, componentes e portas de comunicação, consulte o guia de [Análise da Arquitetura](./slides/arquitetura.md).
@@ -158,8 +156,7 @@ Linux / macOS
 
 ### Para iniciar o sistema
 
-    Dependendo do desafio, há na pasta um arquivo "run.py" , esse arquivo sé responsavel por inicializar o sistema, basta dar play nele e o sistema começa a funcionar, logo em seguida basta clicar no link que aparecer no terminal e será direcionado para o site.
 
-### Observação
-    Dentro da pasta de prototipo terá uma subpasta ai nela crie um arquivo .env e coloque sua chave de API da Google AI Studio
-    coloque desta maneira no arquivo .env : GEMINI_API_KEY = "sua chave de API aqui"
+      Dependendo do desafio, há na pasta um arquivo "run.py" , esse arquivo sé responsavel por inicializar o sistema, basta dar play nele e o sistema começa a funcionar, logo em seguida basta clicar no link que aparecer no terminal e será direcionado para o site.
+
+
