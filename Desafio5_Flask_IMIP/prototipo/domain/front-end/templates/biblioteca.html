@@ -303,6 +303,11 @@ function fecharLivro(){
         pageFlip.destroy(); // 🔥 evita bug ao reabrir
         pageFlip = null;
     }
+
+    // Recarrega a página após 300ms para permitir animação
+    setTimeout(() => {
+        location.reload();
+    }, 300);
 }
 
 function tocarSom(){
