@@ -2,7 +2,7 @@
 body{
   margin:0;
   font-family:"MinhaFonte", serif;
-  background-color: #f0f0e1b7;
+  background-image: url("../images/h3.jpg");
 }
 
 header{
@@ -113,7 +113,7 @@ section{
 }
 
 .hero-section{
-  background-image: url("../images/download.jpg");
+  background-color: #fdf7e3;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -159,7 +159,7 @@ section{
 
 .balao{
   max-width:400px;
-  border:4px solid #0100022c;
+  border:4px solid #790fe421;
   border-radius:10px;
   text-align:center;
   padding:40px;
@@ -167,6 +167,7 @@ section{
   background-image: url('../images/h3.jpg');
   filter: drop-shadow(3px 5px 5px rgba(0,0,0,0.5));
 }
+
 
 .personagem{
   max-width:450px;
@@ -197,7 +198,22 @@ section{
   transition:transform 0.3s;
 }
 
+.card1{
+  background:rgb(241, 241, 241);
+  border-radius:15px;
+  padding:30px;
+  width:220px;
+  text-align: center;
+  box-shadow: 10px 12px rgba(0, 0, 0, 0.555);
+  transition:transform 0.3s;
+}
+
+
 .card:hover{
+  transform:translateY(-10px);
+}
+
+.card1:hover{
   transform:translateY(-10px);
 }
 
@@ -205,10 +221,15 @@ section{
   width:90px;
 }
 
+.card1 img{
+  width:30px;
+}
+
 #leitura{
-  width:320px;
-  height:160px;
+  width:300px;
+  height:179px;
   margin: -10px;
+  object-fit: contain;
 
 }
 
@@ -228,15 +249,15 @@ section{
 
 
 .forms-support{
-  max-width:500px;
+  max-width:600px;
 }
 
 fieldset{
-  background-color:#E0D5FF;
+  background-color:#e3dbf8;
   border:none;
   border-radius:10px;
   width: 500px;
-  background-color: #c8bde0;
+  background-image: url('../images/h3.jpg');
   padding: 30px;
   border-radius: 15px;
   box-shadow: 8px 8px 0px #555;
@@ -254,8 +275,8 @@ input, textarea{
 footer{
   text-align:center;
   padding:20px;
-  color:rgb(7, 0, 0);
-  background-image: url("../images/download.jpg");
+  color: #000000e0;
+  background-color: #fdf7e3;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -263,17 +284,55 @@ footer{
 }
 
 .titulo{
-    color: #000000f1;
+    color: #2d4242e0;
     text-align: center;
     font-size: 40px;
     margin: 40px 0;
     height: 90px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     text-shadow:
   1px 1px 0 #ffffff8f,
   -1px -1px 0 #ffffff7e,
   2px 2px 3px rgba(0, 0, 0, 0.2);
 }
 
+.opcao{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    margin-bottom:15px;
+}
+
+.opcao input{
+
+    width:18px;
+    height:18px;
+
+    cursor:pointer;
+}
+
+.opcao label{
+
+    font-size:18px;
+
+    cursor:pointer;
+}
+
+h1, h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p, button {
+    font-family: 'Nunito', sans-serif;
+}
 
 #personagem {
   filter: drop-shadow(3px 5px 5px rgba(0,0,0,0.5));

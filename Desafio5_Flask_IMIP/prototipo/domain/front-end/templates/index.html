@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AlfabetizaIA</title>
   <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=New+Amsterdam&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -49,15 +52,15 @@
       <div class="comeco">
 
         <div class="balao">
-          <h2 style="color:#000000; text-shadow:
-  1px 1px 0 #ffffffe0,
+          <h2 style="color: #182525e0; text-shadow:
+  1px 0px 0 #ffffffe0,
   -1px -1px 0 #ffffffad,
   2px 2px 3px rgba(0, 0, 0, 0),
-  -2px -2px 3px rgba(0,0,0,0.2);">✨ Vamos aprender juntos!</h2>
+  -2px -2px 3px rgba(0,0,0,0.2);">Vamos aprender juntos!</h2>
 
-          <p style="color:#000000; font-weight:bold;
+          <p style="color: #182525e0; font-weight:bold;
 text-shadow:
-  1px 1px 0 #ffffff,
+  1px 0px 0 #ffffff,
   -1px -1px 0 #ffffffbe,
   2px 2px 3px rgba(0, 0, 0, 0),
   -2px -2px 3px rgba(0,0,0,0.2);">
@@ -83,7 +86,7 @@ text-shadow:
 
       <div class="container">
 
-        <div class="card">
+        <div class="card1">
           <img src="{{url_for('static', filename='images/abc.png')}}" alt="Icone de ABC" id="leitura">
           <h3>Contos e Fabulas</h3>
           <p>Leia contos e fábulas divertidas enquanto aprende novas palavras.</p>
@@ -93,15 +96,15 @@ text-shadow:
         <div class="card">
           <img src="{{url_for('static', filename='images/abc-games.png')}}" alt="icone de blocos de ABC" id="abc">
           <h3>Atividades Interativas</h3>
-          <p>Pratique letras, sílabas e palavras com atividades divertidas que ajudam no desenvolvimento da leitura.</p>
+          <p>Pratique letras, sílabas e palavras com atividades divertidas.</p>
           <a href="/quiz">Clique aqui</a>
         </div>
 
         <div class="card">
           <img src="{{url_for('static', filename='images/grafico.png')}}" alt="icone grafico" id="grafico">
-          <h3>🌟 Minha Evolução</h3>
+          <h3>Minha Evolução</h3>
           <p>Veja seus resultados, conquistas e descubra o quanto você já aprendeu.</p>
-          <a href="{{ url_for('routes.evolucao') }}">Clique aqui</a>
+          <a href="/login">Clique aqui</a>
         </div>
 
       </div>
@@ -141,24 +144,20 @@ text-shadow:
 
             <h3>Objetivo da mensagem</h3>
 
-            <div>
-              <input type="radio" name="objetivo">
-              <label>Sugestão</label>
-            </div>
-
-            <div>
-              <input type="radio" name="objetivo">
-              <label>Erro</label>
-            </div>
-
-            <div>
-              <input type="radio" name="objetivo">
-              <label>Dúvida</label>
-            </div>
-
+               <div class="opcao">
+               <input type="radio" name="objetivo">
+               <label>Sugestão</label>
           </div>
 
-          <div>
+          <div class="opcao">
+          <input type="radio" name="objetivo">
+           <label>Erro</label>
+           </div>
+
+<div class="opcao">
+    <input type="radio" name="objetivo">
+    <label>Dúvida</label>
+</div>
             <br>
             <label>Mensagem:</label>
             <textarea placeholder="Digite sua mensagem aqui" required></textarea>

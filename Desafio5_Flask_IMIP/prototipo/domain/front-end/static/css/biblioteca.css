@@ -11,21 +11,34 @@ body{
 
 /* ESTANTE */
 .estante{
-     background:rgb(241, 241, 241);
-     border-radius:15px;
-     padding:50px;
-     width:180px;
-     height: 280px;
-     margin-left: 60px;
-     text-align: center;
-     box-shadow: 10px 12px rgba(0, 0, 0, 0.555);
-     transition:transform 0.3s;
-
+     display:flex;
+     gap:40px;
+     justify-content:center;
+     flex-wrap:wrap;
+     margin-top:50px;
 }
 
-.livro{cursor:pointer;}
-.livro:hover{transform:scale(1.05);}
-.livro img{width:100%; border-radius:10px;}
+.livro{
+     background:rgb(241, 241, 241);
+     border-radius:15px;
+     padding:20px;
+     width:180px;
+     text-align:center;
+     box-shadow: 10px 12px rgba(0, 0, 0, 0.555);
+     transition:transform 0.3s;
+     cursor:pointer;
+}
+
+.livro:hover{
+     transform:scale(1.05);
+}
+
+.livro img{
+     width:100%;
+     height:240px;
+     object-fit:cover;
+     border-radius:10px;
+}
 
 /* MODAL */
 #modal{
@@ -54,12 +67,12 @@ body{
     background: #fffdf7;
     padding: 15px;
     box-sizing: border-box;
-    overflow: hidden; /* 🔥 MUITO IMPORTANTE */
+    overflow: hidden; 
 }
 
 .img-pagina {
     width: 90%;
-    max-height: 200px; /* 🔥 LIMITA ALTURA */
+    max-height: 200px; 
     object-fit: cover;
     border-radius: 10px;
     margin-bottom: 10px;
@@ -78,7 +91,7 @@ body{
 
 /* CAPA */
 .cover{
-    background-image: url("../images/capa.jpg");
+    background-image: url("../images/capaOFC.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
