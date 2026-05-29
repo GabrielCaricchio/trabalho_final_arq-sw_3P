@@ -164,4 +164,8 @@ Linux / macOS
 ---
 
 Observação:
-Crie um arquivo .env na pasta de adapters e coloque sua chave de API do google AI studio
+
+     Crie um arquivo .env na pasta de adapters e coloque sua chave de API do google AI studio,  o nome da variável que guarda a chave de API deve ser GEMINI_API_KEY = "", e a chave de API deve estar entre aspas.
+
+Link do site da google para criad uma chave de API (5 usos grátis diários):
+https://aistudio.google.com/
