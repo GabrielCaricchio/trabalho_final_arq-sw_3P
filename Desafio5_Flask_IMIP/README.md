@@ -161,4 +161,7 @@ Linux / macOS
 
       Dependendo do desafio, há na pasta um arquivo "run.py" , esse arquivo sé responsavel por inicializar o sistema, basta dar play nele e o sistema começa a funcionar, logo em seguida basta clicar no link que aparecer no terminal e será direcionado para o site.
 
+---
 
+Observação:
+Crie um arquivo .env na pasta de adapters e coloque sua chave de API do google AI studio
